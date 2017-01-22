@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: #fff;
+}
+
+svg{
+  stroke: #D9D9D9;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#rim {
+  fill: none;
+  stroke: #999;
+  stroke-width: 3px;
+}
+
+.second-hand{
+  stroke-width:3;
+
+}
+
+.minute-hand{
+  stroke-width:8;
+  stroke-linecap:round;
+}
+
+.hour-hand{
+  stroke-width:12;
+  stroke-linecap:round;
+}
+
+.hands-cover{
+  stroke-width:3;
+  fill:#fff;
+}
+
+.second-tick{
+  stroke-width:1;
+  fill:grey;
+}
+
+.hour-tick{
+  stroke-width:8;
+}
+
+.second-label{
+  font-size: 12px;
+}
+
+.hour-label{
+  font-size: 24px;
+}
