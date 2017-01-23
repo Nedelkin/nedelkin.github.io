@@ -157,14 +157,7 @@ export class AppComponent implements OnInit {
       .attr("x2", (d, i) => 220*Math.sin(scaleX(i) * radiance))
       .attr("y1", (d, i) => -(120 + line_container._parents[0].children[4 + i].clientWidth)*Math.cos(scaleX(i) * radiance))
       .attr("y2", (d, i) => -220*Math.cos(scaleX(i) * radiance))
-      .attr("stroke", (d, i) => color(i))
-
-
-
-    console.log(line_container._parents[0].children[7].clientWidth, line_container)
-
-
-
+      .attr("stroke", (d, i) => color(i));
   }
 
   private createLinesCirle(settings:any) {
